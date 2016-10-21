@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.example.hangzhao.BishareServerMVCTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.example.hangzhao.BishareServerMVCTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.hangzhao.html">com.example.hangzhao</a> &gt; BishareServerMVCTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.397s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">loadCustomers</td>
+<td>0.384s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">rent</td>
+<td>0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2016-10-12 19:00:06.706  INFO 14472 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.hangzhao.BishareServerMVCTests], using SpringBootContextLoader
+2016-10-12 19:00:06.722  INFO 14472 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.hangzhao.BishareServerMVCTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-10-12 19:00:06.723  INFO 14472 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.hangzhao.BishareServerMVCTests]: BishareServerMVCTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2016-10-12 19:00:07.311  INFO 14472 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.hangzhao.BishareServerApplication for test class com.example.hangzhao.BishareServerMVCTests
+2016-10-12 19:00:07.319  INFO 14472 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-12 19:00:07.331  INFO 14472 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@10cf2579, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@314eb424, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1ebf27cf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ccb60c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@15c666cc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51ed0fc4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@368bdb69, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@11616811, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37378cf7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@e9d36fa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6625f4d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c9e29e6]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.1.RELEASE)
+
+2016-10-12 19:00:07.728  INFO 14472 --- [    Test worker] c.e.hangzhao.BishareServerMVCTests       : Starting BishareServerMVCTests on hang-DELL-N1510 with PID 14472 (started by Hang Zhao in C:\Users\Hang Zhao\Documents\GitHub\Bishare_Server-master)
+2016-10-12 19:00:07.730  INFO 14472 --- [    Test worker] c.e.hangzhao.BishareServerMVCTests       : No active profile set, falling back to default profiles: default
+2016-10-12 19:00:07.736  INFO 14472 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@51ba510: startup date [Wed Oct 12 19:00:07 NZDT 2016]; root of context hierarchy
+2016-10-12 19:00:10.436  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@51ba510: startup date [Wed Oct 12 19:00:07 NZDT 2016]; root of context hierarchy
+2016-10-12 19:00:10.552  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/return],methods=[POST]}&quot; onto public java.lang.String com.example.hangzhao.web.ByController.returnBicycle(java.lang.String,java.lang.String,java.lang.String)
+2016-10-12 19:00:10.553  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/bicycle],methods=[GET]}&quot; onto public java.util.List&lt;com.example.hangzhao.data.Bicycle&gt; com.example.hangzhao.web.ByController.getAllBicycles()
+2016-10-12 19:00:10.556  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/dockbay],methods=[GET]}&quot; onto public java.util.List&lt;com.example.hangzhao.data.DockBay&gt; com.example.hangzhao.web.ByController.getAllDockBay()
+2016-10-12 19:00:10.558  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/customer],methods=[GET]}&quot; onto public java.util.List&lt;com.example.hangzhao.data.Customer&gt; com.example.hangzhao.web.ByController.getAllCustomers()
+2016-10-12 19:00:10.560  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/status/{customerID}],methods=[GET]}&quot; onto public com.example.hangzhao.data.Customer com.example.hangzhao.web.ByController.customerStatus(java.lang.String)
+2016-10-12 19:00:10.561  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String com.example.hangzhao.web.ByController.helloWorld()
+2016-10-12 19:00:10.562  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/rent],methods=[POST]}&quot; onto public java.lang.String com.example.hangzhao.web.ByController.rentBicycle(java.lang.String,java.lang.String)
+2016-10-12 19:00:10.674  INFO 14472 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 19:00:10.677  INFO 14472 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 19:00:10.944  INFO 14472 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 19:00:11.867  INFO 14472 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-10-12 19:00:11.867  INFO 14472 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-10-12 19:00:12.008  INFO 14472 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 141 ms
+2016-10-12 19:00:12.494  INFO 14472 --- [    Test worker] c.e.hangzhao.BishareServerMVCTests       : Started BishareServerMVCTests in 5.1 seconds (JVM running for 23.414)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.13</a> at 12/10/2016 7:00:13 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hangzhao.BishareServerMVCTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-10-12T06:00:12" hostname="hang-DELL-N1510" time="0.415">
+  <properties/>
+  <testcase name="loadCustomers" classname="com.example.hangzhao.BishareServerMVCTests" time="0.384"/>
+  <testcase name="rent" classname="com.example.hangzhao.BishareServerMVCTests" time="0.005"/>
+  <testcase name="contextLoads" classname="com.example.hangzhao.BishareServerMVCTests" time="0.008"/>
+  <system-out><![CDATA[2016-10-12 19:00:06.706  INFO 14472 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.hangzhao.BishareServerMVCTests], using SpringBootContextLoader
+2016-10-12 19:00:06.722  INFO 14472 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.hangzhao.BishareServerMVCTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-10-12 19:00:06.723  INFO 14472 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.hangzhao.BishareServerMVCTests]: BishareServerMVCTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2016-10-12 19:00:07.311  INFO 14472 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.hangzhao.BishareServerApplication for test class com.example.hangzhao.BishareServerMVCTests
+2016-10-12 19:00:07.319  INFO 14472 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-12 19:00:07.331  INFO 14472 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@10cf2579, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@314eb424, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1ebf27cf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ccb60c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@15c666cc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51ed0fc4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@368bdb69, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@11616811, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37378cf7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@e9d36fa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6625f4d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c9e29e6]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.1.RELEASE)
+
+2016-10-12 19:00:07.728  INFO 14472 --- [    Test worker] c.e.hangzhao.BishareServerMVCTests       : Starting BishareServerMVCTests on hang-DELL-N1510 with PID 14472 (started by Hang Zhao in C:\Users\Hang Zhao\Documents\GitHub\Bishare_Server-master)
+2016-10-12 19:00:07.730  INFO 14472 --- [    Test worker] c.e.hangzhao.BishareServerMVCTests       : No active profile set, falling back to default profiles: default
+2016-10-12 19:00:07.736  INFO 14472 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@51ba510: startup date [Wed Oct 12 19:00:07 NZDT 2016]; root of context hierarchy
+2016-10-12 19:00:10.436  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@51ba510: startup date [Wed Oct 12 19:00:07 NZDT 2016]; root of context hierarchy
+2016-10-12 19:00:10.552  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/return],methods=[POST]}" onto public java.lang.String com.example.hangzhao.web.ByController.returnBicycle(java.lang.String,java.lang.String,java.lang.String)
+2016-10-12 19:00:10.553  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bicycle],methods=[GET]}" onto public java.util.List<com.example.hangzhao.data.Bicycle> com.example.hangzhao.web.ByController.getAllBicycles()
+2016-10-12 19:00:10.556  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dockbay],methods=[GET]}" onto public java.util.List<com.example.hangzhao.data.DockBay> com.example.hangzhao.web.ByController.getAllDockBay()
+2016-10-12 19:00:10.558  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer],methods=[GET]}" onto public java.util.List<com.example.hangzhao.data.Customer> com.example.hangzhao.web.ByController.getAllCustomers()
+2016-10-12 19:00:10.560  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/status/{customerID}],methods=[GET]}" onto public com.example.hangzhao.data.Customer com.example.hangzhao.web.ByController.customerStatus(java.lang.String)
+2016-10-12 19:00:10.561  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.hangzhao.web.ByController.helloWorld()
+2016-10-12 19:00:10.562  INFO 14472 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/rent],methods=[POST]}" onto public java.lang.String com.example.hangzhao.web.ByController.rentBicycle(java.lang.String,java.lang.String)
+2016-10-12 19:00:10.674  INFO 14472 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 19:00:10.677  INFO 14472 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 19:00:10.944  INFO 14472 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 19:00:11.867  INFO 14472 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-10-12 19:00:11.867  INFO 14472 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-10-12 19:00:12.008  INFO 14472 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 141 ms
+2016-10-12 19:00:12.494  INFO 14472 --- [    Test worker] c.e.hangzhao.BishareServerMVCTests       : Started BishareServerMVCTests in 5.1 seconds (JVM running for 23.414)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
